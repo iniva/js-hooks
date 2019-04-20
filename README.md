@@ -1,2 +1,2 @@
-# js-commit-hooks
-Configurations and Scripts for commit hooks
+# JS Hooks <!-- omit in toc -->
+Configurations and Scripts for hooks
