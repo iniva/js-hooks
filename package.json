@@ -3,9 +3,21 @@
   "version": "1.0.0",
   "description": "Configurations and Scripts for hooks",
   "main": "index.js",
-  "repository": "git@github.com:iniva/js-hooks.git",
   "author": "Tony <tonyblast@gmail.com>",
   "license": "MIT",
+  "keywords": [
+    "hooks",
+    "conventional-commits",
+    "husky"
+  ],
+  "homepage": "https://github.com/iniva/js-hooks",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iniva/js-hooks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iniva/js-hooks/issues"
+  },
   "scripts": {
     "commit": "git-cz"
   },
