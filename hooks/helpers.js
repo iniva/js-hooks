@@ -48,7 +48,7 @@ const getBranchName = async () => {
  * @returns {(String|null)}
  */
 const getConventionalCommitFragment = (line) => {
-    const pattern = new RegExp(/([a-z]+:|[a-z]+\(\w+\):)\s/, 'g')
+    const pattern = new RegExp(/([a-z]+:|[a-z]+\(.*\):)\s+/, 'g')
     const match = line.match(pattern);
 
     return match[0].trim() || null;
