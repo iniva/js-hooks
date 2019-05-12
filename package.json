@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "Configurations and Scripts for hooks",
   "main": "index.js",
+  "bin": "./index.js",
   "author": "Tony <tonyblast@gmail.com>",
   "license": "MIT",
   "keywords": [
